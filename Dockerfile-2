@@ -4,4 +4,4 @@ COPY . .
 RUN sonar-scanner \
     -Dsonar.host.url="http://localhost:9000" \
     -Dsonar.projectKey="Elite" \
-    -Dsonar.sources="/app/elite/frontend/src"
+    -Dsonar.sources="/app/elite/frontend"
